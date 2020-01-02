@@ -34,6 +34,8 @@ void SmallImage::setRatio() {
 Mat SmallImage::getImage() const {
     return m_image;
 }
+
+//Fonction de calcule du ration des patch dans l'image
 double SmallImage::getRatio() const {
     return m_ratio;
 }
