@@ -101,7 +101,7 @@ void imageReconstruction(vector <SmallImage> &tableImg, Mat &img){
         ones *= element.getRatio();
         ones.copyTo(carte_chaleur(element.rect_from_bigimage));
     }
-    // Save contours
+    // Save contours on carteC
     imwrite("./carteC.png", contours_reconstructed);
 
     // Normalize carte_chaleur and save it
